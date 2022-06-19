@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr =[2,5,5,6,8,9,11];
+    function ham(num1){
+        let count=0
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i]== num1){
+                count++
+            }
+        } return count;
+    }
+    let a=prompt("Nhập a:")
+    let value=ham(a)
+    alert("có "+ value+" số " +a +"trong dãy")
+</script>
+</body>
+</html>
